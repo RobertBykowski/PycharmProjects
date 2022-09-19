@@ -65,7 +65,7 @@ while i == "dog":
     print(i)
 print("This world is not dog")'''
 
-secret_word = input("Set up your secret word: ")
+'''secret_word = input("Set up your secret word: ")
 guess = ""
 guess_count = 0
 guess_limit = 3
@@ -82,7 +82,40 @@ while guess != secret_word and not(out_of_guesses):
 if out_of_guesses:
     print("You limit of guesses is up")
 else:
-    print("You win!")
+    print("You win!")'''
+#For loop
+'''friends = ["Jim", "Julia", "Robert"]
+for friend in friends:
+    print(friend)
+    
+for index in range(2,10):
+    print(index)'''
+
+'''friends = ["Jim", "Julia", "Robert"]
+for index in range(len(friends)):
+    print(friends[index])'''
+# Reading files
+'''employee_file = open("employees.txt")
+#print(employee_file.readable()) #sprawdza czy plik jest czytany
+#print(employee_file.read())
+print(employee_file.readlines()[0])
+employee_file.close()'''
+
+'''employee_file = open("employees.txt")
+for employee in employee_file.readlines():
+    print(employee)
+employee_file.close()'''
+#Dopisywanie do pilku
+employee_file = open("employees.txt", "a") #"w" nadpiszesz plik
+employee_file.write("\n9.Wycieczka anulowana")
+employee_file.close()
+
+
+
+
+
+
+
 
 
 
