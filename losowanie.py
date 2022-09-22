@@ -1,7 +1,7 @@
 import random
 
 lista1 = []
-for i in range(3):
+for i in range(30):
     lista2 = [".", "*", "X"]
     #tu zawartość twoej pętli np kolejna pętla
     for i in range(1):
