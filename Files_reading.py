@@ -16,7 +16,7 @@ def znajdz_wzorzec(text, wzorzec):
                 #print(tablica_pozycji_wysapien)
                 with open("tablica_pozycji_wysapien.txt", 'a') as file:
                     file.write(str(tablica_pozycji_wysapien))
-                #print(f"Znaleziono wzorzec {wzorzec} na pozycji {i}")
+                print(f"Znaleziono wzorzec {wzorzec} na pozycji {i}")
 
                 liczba_wystapien += 1
 
@@ -27,7 +27,7 @@ def znajdz_wzorzec(text, wzorzec):
 
 with open("email_ANSI.txt", mode = 'r', encoding='cp1250') as f:
     tekst = f.read()
-    #print(tekst[17643-2])
+    print(tekst[17643-2])
 
 znajdz_wzorzec(tekst, ".pl")
 

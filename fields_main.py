@@ -5,6 +5,6 @@ for index in range(len(znak)):
         znak_bis = map(lambda x: x+"\n", znak * 3)
         fields_file.writelines(znak_bis)
         fields_file.close()
-
+print(znak_bis)
 
 
