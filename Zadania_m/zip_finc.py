@@ -1,0 +1,5 @@
+list_1 = list(range(1, 10))
+list_2 = list(range(11, 20))
+list_3 = list(zip(list_1, list_2))
+print(list_3, ".", sep = "      ")
+print(tuple(list_3))

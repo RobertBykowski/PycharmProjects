@@ -1,0 +1,19 @@
+- split words from text
+txt = "welcome to the jungle"
+x = txt.split()
+print(x)
+
+- zamiana ciągu na listę
+list = text.split("")
+częstotliwość elementu w ciągu => a.count("patern")
+
+- zamiana listy na słownik
+a = ['Openstack','Puppet','Python']
+b = {}
+c = 0
+for v in a:
+    b[v] = c
+    c+=1
+print (b)
+
+ list.index(x[, start[, end]])
