@@ -1,0 +1,49 @@
+Audio.txt
+English.py
+English_words.py
+Files_reading.py
+Linear equation.py
+P100_78.py
+Pythagorean triple.py
+Python for Data Science.py
+Python string index.py
+Python_class.py
+Zad_1_2_im.py
+Zad_2_7_im.py
+Zadania_m/
+__pycache__/
+classowanie.py
+data_generator.py
+dic_all.py
+email_ANSI.txt
+employees.txt
+enumerate.py
+fields.txt
+fields_main.py
+finditer_eg.py
+gra.py
+listy_all.py
+loop_tests.py
+loop_while.py
+loop_with_list.py
+losowanie.py
+lotto.py
+main.py
+new_coding.txt
+new_developing.txt
+nowy.py
+odwrocony_ciag_str.py
+open_file.py
+plik.txt
+podzielne.py
+read_web.py
+red_text_f_html.py
+seek_result
+spec.txt
+szukanie_w_pliku_txt.py
+tablica_pozycji_wysapien.txt
+temp_now.py
+templatestr.py
+venv/
+work_out.py
+wynik2.txt
