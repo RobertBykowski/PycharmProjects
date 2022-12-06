@@ -10,8 +10,7 @@ def main(n):
     print(list_in_row, "", end="\n")
     print()
     print("min=>",min(list),"max=>",max(list))
-    print(sum(list))
-    print(sum(list)/len(list))
+    print(f"Sum all = {sum(list)}")
 
 main(int(input("Let me know number 1-100: ")))
 

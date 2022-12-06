@@ -22,7 +22,7 @@ order =[]
 
 choice = input("Select something from the menu : ")
 
-for choice == menu.keys():
+for choice in menu.keys():
     key = menu.get(choice)
     basket.append(key)
     order.append(choice)
