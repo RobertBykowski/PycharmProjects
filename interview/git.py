@@ -6,7 +6,7 @@ os.chdir('C:\\Users\\Admin\\PycharmProjects\\pythonProject1')
 # Wykonuje comende add
 os.system('git add -A')
 
-# Wykonuje commit z podaną wiadomością
+# Wykonuje commit z podaną wiadomościąpyinstaller
 os.system('git commit -am "Dodano nowy plik"')
 
 # Wykonuje push do repozytorium
