@@ -2,7 +2,7 @@
 # for i in range(len(list_a)):
 #     print(list_a[i])
 
-file = open("email_ANSI.txt", mode = "r", encoding='windows-1250')
+file = open("email_ANSI.txt", mode ="r", encoding='windows-1250')
 words = file.readlines()
 file.close()
 a = repr(words)

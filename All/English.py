@@ -1,7 +1,7 @@
 import re
 from collections import Counter
 import pandas as pd
-file = open("spec.txt", mode = "r", encoding="utf-8")
+file = open("spec.txt", mode ="r", encoding="utf-8")
 text = file.read()
 text_after_split = text.split(" ")
 

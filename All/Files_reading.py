@@ -25,7 +25,7 @@ def znajdz_wzorzec(text, wzorzec):
     else:
         print(f"Wzorzec {wzorzec} w tekście występuje {liczba_wystapien} razy")
 
-with open("email_ANSI.txt", mode = 'r', encoding='cp1250') as f:
+with open("email_ANSI.txt", mode ='r', encoding='cp1250') as f:
     tekst = f.read()
     print(tekst[17643-2])
 
