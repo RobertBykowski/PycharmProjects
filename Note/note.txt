@@ -1,0 +1,8 @@
+# zerowanie indexu automatycznego od 1
+# data.reset_index(drop=True, inplace=True)
+# data.index = range(1, len(data) + 1)
+# print(data)
+
+# wyfiltruj kolumny
+# df_filtered = data.filter(items=["id"], axis=1)
+# print(df_filtered)
