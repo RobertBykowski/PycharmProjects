@@ -31,3 +31,4 @@ def add_note():
     # Add the new data from the DataFrame to the CSV file
     df.to_csv("list_of_note.csv", mode="a", header=False, index=False, lineterminator="\n")
 
+add_note()
