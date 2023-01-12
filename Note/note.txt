@@ -6,3 +6,7 @@
 # wyfiltruj kolumny
 # df_filtered = data.filter(items=["id"], axis=1)
 # print(df_filtered)
+
+1. Moduł odpowiedzialny za wyświetlanie danych - dane wyświetlają się
+   zawsze tak samo.
+2. Rozrysować schemat programu.
